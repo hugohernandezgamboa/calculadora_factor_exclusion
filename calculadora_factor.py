@@ -1,5 +1,25 @@
 import streamlit as st
-
+# Estilos con colores institucionales STYFE
+st.markdown("""
+    <style>
+        h1 {
+            color: #9F2241;
+        }
+        .stNumberInput input {
+            background-color: #235B4E;
+            color: white;
+        }
+        .stButton>button {
+            background-color: #235B4E;
+            color: white;
+            border-radius: 8px;
+        }
+        .stSuccess {
+            background-color: #BC955C !important;
+            color: black !important;
+        }
+    </style>
+""", unsafe_allow_html=True)
 st.set_page_config(page_title="Calculadora de Ingreso Bruto", layout="centered")
 
 st.title("Calculadora de Ingreso Bruto Mínimo 🧮")
